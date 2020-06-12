@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.habeebcycle</groupId>
+    <artifactId>microservices</artifactId>
+    <version>1.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>parent-project</name>
+
+    <modules>
+        <module>services/product-composite-service</module>
+        <module>services/product-service</module>
+        <module>services/recommendation-service</module>
+        <module>services/review-service</module>
+        <module>discovery/service-discovery-server</module>
+        <module>discovery/service-gateway-server</module>
+        <module>discovery/service-authorization-server</module>
+        <module>discovery/service-config-server</module>
+        <module>api</module>
+        <module>util</module>
+    </modules>
+
+
+</project>
